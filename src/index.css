@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-bar-secondary to-bar-accent bg-clip-text text-transparent;
+}
